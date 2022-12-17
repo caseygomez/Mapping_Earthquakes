@@ -19,27 +19,27 @@ Using my knowledge of JavaScript, Leaflet.js and geoJSON, I collected earthquake
 ### Visuals: 
 Map 1: ![Tectonic Plates](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/light.png)
 
-Map 1 displays Tectonic Plates as well as all earthquakes on Mapbox light background. 
+Map 1 displays tectonic plates as well as all earthquakes for past seven days with magnitude and location popup on Mapbox light background. 
 
 Map 2: ![Major Earthquakes](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/lightmajor.png)
 
-Map 2 displays the Major Earthquakes, greater than 4.5 on the Mapbox light background. 
+Map 2 displays the major earthquakes, magnitude greater than 4.5, on the Mapbox light background. 
 
 Map 3: ![Satellite Tectonic Plates and Earthquakes](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/satellite.png)
 
-Map 3 displays the Tectonic Plates and all Earthquakes in past seven days on the Mapbox Satellite background. 
+Map 3 displays the tectonic plates and all earthquakes in past seven days on the Mapbox satellite background. 
 
 Map 4: ![Street View](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/streets.png)
 
-Map 4 displays the Tectonic Plates and all Earthquakes in the past seven days on the Mapbox Street background. 
+Map 4 displays the tectonic plates and all earthquakes in the past seven days on the Mapbox street background. 
 
 Map 5: ![Dark Tectonic Plates](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/darkplates.png)
 
-Map 5 displays the Tectonic Plates on Mapbox Dark background. 
+Map 5 displays the tectonic plates on Mapbox dark background. 
 
 ---
 ### Results: 
-For Deliverable One the tectonic plate layer group is declared (let tectPlates). The layer group reference (tectPlates) was added to the overlays object as "Tectonic Plates" so that the user can select the option in the top right corner. Using the d3.json() callback method the data has been passed into the geoJSON() layer. The style has been updated including color: "#ff0000", and line weight: 2. The layer was then added to the map tectPlates.addTo(map). 
+For Deliverable One the tectonic plate layer group is declared (let tectPlates). The layer group reference (tectPlates) was added to the overlays object as "Tectonic Plates" so that the user can select the option from the menu in the top right corner. Using the d3.json() callback method the data has been passed into the geoJSON() layer. The style has been updated including color: "#ff0000", and line weight: 2. The layer was then added to the map tectPlates.addTo(map). 
 
 Deliverable Two was similar, the major earthquakes layer group is declared (let majEarthquakes). The layer group reference (majEarthquakes) was added to the overlays object as "Major Earthquakes" and is now available as an option in the overlays menu. Using the d3.json() callback method the data has been passed into the geoJSON() layer. The style has been updated including setting colors based on magnitude and adjusting the radius of the earthquake marker. Additionally I used bindPopup to display "Magnitude" and "Location". 
 
