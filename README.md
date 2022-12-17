@@ -1,7 +1,7 @@
 # Mapping Earthquakes
 
 ## Overview:
-Using my knowledge of JavaScript, Leaflet.js and geoJSON, I collected earthquake data and created multiple visualizations. This project specifically identified all earthquakes over the past seven days as well as earthquakes with magnitudes greater than 4.5 and utilized LineString to display coordinates for tectonic plates. The data was then mapped using satellite, street, light and dark maps. 
+Using my knowledge of JavaScript, Leaflet.js and geoJSON, I collected earthquake data and created multiple visualizations. This project specifically identified all earthquakes over the past seven days as well as earthquakes with magnitude greater than 4.5 and utilized LineString to display coordinates for tectonic plates. The data was then mapped using satellite, street, light and dark background maps.
 
 ------
 ### Resources:
