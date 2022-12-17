@@ -6,8 +6,8 @@ Using my knowledge of JavaScript, Leaflet.js and geoJSON, I collected earthquake
 ------
 ### Resources:
 * Source Code: [Challenge_Logic](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/js/challenge_logic.js)
-* Source Data: [Earthquake USGS](https://earthquake.usgs.gov/)
-* Software: [Mapbox](https://www.mapbox.com/), [Leaflet](https://leafletjs.com/)
+* Source Data: [Earthquake USGS](https://earthquake.usgs.gov/), [Tectonic Plates](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
+* Software: [Mapbox](https://www.mapbox.com/), [Leaflet](https://leafletjs.com/), [D3.js](https://d3js.org/)
 
 ---
 ### Deliverables:
