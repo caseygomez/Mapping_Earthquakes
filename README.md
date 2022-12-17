@@ -5,7 +5,7 @@ Using my knowledge of JavaScript, Leaflet.js and geoJSON, I collected earthquake
 
 ------
 ### Resources:
-* Source Code: [Challenge_Logic](NYC_CitiBike_Challenge_Starter_Code.ipynb)
+* Source Code: [Challenge_Logic](https://github.com/caseygomez/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/js/challenge_logic.js)
 * Source Data: [Earthquake USGS](https://earthquake.usgs.gov/)
 * Software: [Mapbox](https://www.mapbox.com/), [Leaflet](https://leafletjs.com/)
 
